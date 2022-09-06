@@ -1,0 +1,48 @@
+#baner{
+    color: yellow;
+    text-align: center;
+    height: 370px;
+}
+#rozgrywka{
+    color: white;
+    text-align: center;
+    width: 200px;
+    margin: 10px;
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+    float: left;
+}
+#rozgrywka:hover{
+border-color:white;
+}
+
+#glowny{
+    height: 50px;
+    background-color: whitesmoke;
+    clear: both;
+}
+#lewy{
+    background-color: whitesmoke;
+    height: 230px;
+    width: 70%;
+    float: left;
+}
+#prawy{
+    background-color: whitesmoke;
+    height: 230px;
+    width: 30%;
+    text-align: right;
+    float: left;
+}
+body{
+    font-family: Tahoma;
+    background-color: crimson;
+}
+h2{
+    text-align: center;
+    letter-spacing: 7px;
+    text-transform: capitalize;
+    color: yellow;
+}

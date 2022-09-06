@@ -1,0 +1,10 @@
+kw1:
+select zespol1,zespol2,wynik,data_rozgrywki from rozgrywka where zespol1="EVG";
+kw2
+select imie,nazwisko from zawodnik where pozycja_id=3;
+kw3
+select zawodnik.id,zawodnik.nazwisko,pozycja.nazwa from zawodnik 
+inner join pozycja on zawodnik.id=pozycja.id 
+where zawodnik.id=1 or zawodnik.id=2 or zawodnik.id=3;
+kw4
+drop table liga;
