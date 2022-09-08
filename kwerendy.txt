@@ -1,10 +1,11 @@
-kw1:
-select zespol1,zespol2,wynik,data_rozgrywki from rozgrywka where zespol1="EVG";
+kw1
+select imie,nazwisko from zawodnik
+where pozycja_id=4;
 kw2
-select imie,nazwisko from zawodnik where pozycja_id=3;
+select zespol,punkty,grupa from liga order by punkty;
 kw3
-select zawodnik.id,zawodnik.nazwisko,pozycja.nazwa from zawodnik 
-inner join pozycja on zawodnik.id=pozycja.id 
-where zawodnik.id=1 or zawodnik.id=2 or zawodnik.id=3;
+select zawodnik.id,zawodnik.nazwisko, pozycja.nazwa from zawodnik
+inner join pozycja on zawodnik.pozycja_id=pozycja.id
+where zawodnik.id BETWEEN 3 and 5;
 kw4
-drop table liga;
+delete from rozgrywka;
